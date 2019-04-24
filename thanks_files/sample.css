@@ -1,0 +1,186 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+.fillParent {
+	width: 100%;
+	height: 100%
+}
+
+/* Футер */
+
+a {
+	color: #dc2222;
+}
+
+#footer{
+
+	position: fixed;
+	z-index: 2;
+	width: 100%;
+	height:77px;
+	text-align: center;
+	font-size:10px;
+/* Хак */
+	text-align: right;
+	bottom: -15px;
+	color: gray;
+
+	right: 0px;
+	padding-right: 60px;
+	box-sizing: border-box;
+}
+
+/* */
+
+#layouts .portrait.story {
+	width: 300px;
+}
+
+#layouts .portrait .padded {
+	padding: 200px 30px;
+}
+
+#layouts .portrait .landscapeOnly {
+	display: none;
+}
+#layouts .portraitOnly,
+#layouts .landscapeOnly {
+	margin-top: 20px;
+}
+
+#layouts .landscape .portraitOnly {
+	display: none;
+}
+
+/* */
+
+body {
+	font-family: Helvetica, sans-serif;
+	background: black;
+}
+body{
+	font-family: 'Microsoft YaHei', '微软雅黑', 'STHeiti', 'WenQuanYi Micro Hei', 'SimSun', 'sans-serif';
+	color:#ffffff;
+	word-wrap:break-word;
+	word-break:break-all;
+	height:100%;
+}
+
+.popularResolution {
+	width: 100%;
+	height:100%;
+	position: absolute;
+
+}
+
+#footer {
+	font-size: 20px;
+}
+.story {
+	text-align: left;
+	width: 600px;
+	background: rgba(255, 255, 255, 0.88);
+	font-size: 20px;
+	position: relative;
+}
+.story>.padded {
+	padding: 30px;
+}
+.story p+p {
+	margin-top: 10px;
+}
+
+.fastLayer {
+	position:absolute;
+	height: 100%;
+	/* width: 100%; */
+
+}
+.fastLayer > * {
+	position:absolute;
+	left: 0px;
+	top: 0px;
+
+}
+
+#scaling .padded {
+	padding: 40% 20%;
+}
+
+.story .hint {
+	display: block;
+	color: gray;
+	font-style: italic;
+	font-size: 70%;
+}
+
+/* 开头 */
+.container {
+  margin: 0 auto;
+  height: 100%;
+}
+
+.container--offset {
+  margin-left: 0;
+}
+.explaination p{
+	font-family:"Microsoft Yahei" "微软雅黑";
+  text-align: left;
+}
+
+.girl_name{
+	color:#e5b6a0;
+	font-size: 55px;
+	font-weight: bold;
+}
+.man_name{
+	color:#ffe2a9;
+	font-size: 55px;
+	font-weight: bold;
+}
+.date,.content{
+	font-weight: 100;
+	font-size: 20px;
+	opacity: 0.8;
+}
+.date p{
+	line-height: 100px;
+	letter-spacing: 3px;
+}
+.content p{
+	line-height: 50px;
+}
+/* @media screen and (orientation:portrait){
+    #wrap{
+        display:none;
+    }
+} */
+/* img{
+	width: 100%;
+	height: 100%;
+} */
+/* @media screen and (max-width:600px) {
+	.girl_name{
+		font-size: 45px;
+	}
+	.man_name{
+		font-size: 45px;
+	}
+	.date,.content{
+		font-weight: 100;
+		font-size: 18px;
+		opacity: 0.8;
+	}
+	.date p{
+		line-height: 60px;
+		letter-spacing: 3px;
+	}
+	.content p{
+		line-height: 30px;
+	}
+}
+@media screen and (max-width:370px) {}
+@media screen and (max-width:340px) {} */
